@@ -30,7 +30,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Inicio</a></li>
+                <li class="active"><a href="index.html">Inicio</a></li>
                 <li><a href="perfil.html">Perfil</a></li>
                 <li><a href="#">Escuelas</a></li>
                 <li><a href="#">Materias</a></li>
@@ -50,9 +50,11 @@
             <div class="col-md-12 well">
                 <h2 class="noticias-heading">Reinicio de clases</h2>
                 <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 <div class="btn-toolbar">
                     <div class="btn-group">
-                        <a class="btn btn-default" href="articulo.html">0 comentarios</a>
+                        <a class="btn btn-default" href="#">2 comentarios</a>
                     </div>
                     <div class="btn-group pull-right" data-toggle="buttons">
                         <label class="btn btn-success">
@@ -65,44 +67,50 @@
                 </div>
             </div>
         </div>
-
-        <div class="row noticias">
-            <div class="col-md-12 well">
-                <h2 class="noticias-heading">Reinicio de clases</h2>
-                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                <div class="btn-toolbar">
-                    <div class="btn-group">
-                        <a class="btn btn-default" href="articulo.html">0 comentarios</a>
+        <div class="row">
+            <div class="col-md-12">
+                <form role="form">
+                    <div class="form-group">
+                        <label for="comentario">Agrega un nuevo comentario</label>
+                        <textarea rows="4" class="form-control" id="comentario" placeholder="Comentario" required></textarea>
                     </div>
-                    <div class="btn-group pull-right" data-toggle="buttons">
-                        <label class="btn btn-success">
-                            <input type="radio" name="options" id="option1"> Votar <i class="glyphicon glyphicon-thumbs-up"></i>
-                        </label>
-                        <label class="btn btn-danger">
-                            <input type="radio" name="options" id="option2"> Votar <i class="glyphicon glyphicon-thumbs-down"></i>
-                        </label>
-                    </div>
-                </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
             </div>
         </div>
+        <div class="row comentarios">
+            <div class="col-md-12">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="btn-group-vertical pull-left" data-toggle="buttons">
+                            <label class="btn btn-success btn-xs">
+                                <input type="radio" name="options" id="option1">0 <i class="glyphicon glyphicon-plus"></i>
+                            </label>
+                            <label class="btn btn-danger btn-xs">
+                                <input type="radio" name="options" id="option2">0 <i class="glyphicon glyphicon-minus"></i>
+                            </label>
+                        </div>
+                        <div class="contenido-comentario">
+                            <em class="list-group-item-heading">Carlos Berroterán comentó</em>
+                            <p class="list-group-item-text">Ya era hora de reiniciar las clases! Ya era hora de reiniciar las clases! Ya era hora de reiniciar las clases! Ya era hora de reiniciar las clases!</p>
+                        </div>
+                    </li>
 
-        <div class="row noticias">
-            <div class="col-md-12 well">
-                <h2 class="noticias-heading">Reinicio de clases</h2>
-                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                <div class="btn-toolbar">
-                    <div class="btn-group">
-                        <a class="btn btn-default" href="articulo.html">0 comentarios</a>
-                    </div>
-                    <div class="btn-group pull-right" data-toggle="buttons">
-                        <label class="btn btn-success">
-                            <input type="radio" name="options" id="option1"> Votar <i class="glyphicon glyphicon-thumbs-up"></i>
-                        </label>
-                        <label class="btn btn-danger">
-                            <input type="radio" name="options" id="option2"> Votar <i class="glyphicon glyphicon-thumbs-down"></i>
-                        </label>
-                    </div>
-                </div>
+                    <li class="list-group-item">
+                        <div class="btn-group-vertical pull-left" data-toggle="buttons">
+                            <label class="btn btn-success btn-xs">
+                                <input type="radio" name="options" id="option1">5 <i class="glyphicon glyphicon-plus"></i>
+                            </label>
+                            <label class="btn btn-danger btn-xs">
+                                <input type="radio" name="options" id="option2">0 <i class="glyphicon glyphicon-minus"></i>
+                            </label>
+                        </div>
+                        <div class="contenido-comentario">
+                            <em class="list-group-item-heading">Miguel Astor comentó</em>
+                            <p class="list-group-item-text">Ya era hora de reiniciar las clases!</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
 

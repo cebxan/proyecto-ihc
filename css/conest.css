@@ -18,21 +18,21 @@ footer {
 }
 
 .noticias {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.marketing {
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 30px;
+}
+
+.comentarios {
+    margin-top: 15px;
+}
+
+.contenido-comentario {
+    margin-left: 40px;
 }
 
 /* Featurettes
  -*------------------------ */
-
-.noticias-divider {
-    margin: 50px 0; /* Space out the Bootstrap <hr> more */
-}
 
 /* Thin out the marketing headings */
 .noticias-heading {
