@@ -1,6 +1,11 @@
 body {
-    padding: 20px 0;
+    padding: 20px 0 0;
     color: #5a5a5a;
+}
+
+footer {
+    background-color: #53777A;
+    color: #fff;
 }
 
 .navbar-brand {
@@ -14,6 +19,7 @@ body {
 
 .noticias {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .marketing {
